@@ -1647,20 +1647,20 @@ body {
     color-scheme: dark;
 
     /* Grayscale */
-    --color-d-gray-10: hsla(32, 48%, 85%, 1);
-    --color-d-gray-20: hsla(34, 39%, 74%, 1);
-    --color-d-gray-30: hsla(34, 31%, 68%, 1);
-    --color-d-gray-40: hsla(35, 27%, 55%, 1);
-    --color-d-gray-50: hsla(34, 24%, 46%, 1);
-    --color-d-gray-60: hsla(33, 27%, 33%, 1);
-    --color-d-gray-70: hsla(31, 27%, 25%, 1);
-    --color-d-gray-80: hsla(28, 22%, 19%, 1);
-    --color-d-gray-90: hsla(33, 20%, 17%, 1);
-    --color-d-gray-100: hsla(30, 19%, 15%, 1);
-    --color-d-gray-110: hsla(30, 17%, 14%, 1);
-    --color-d-gray-120: hsla(29, 16%, 13%, 1);
-    --color-d-gray-130: hsla(24, 18%, 11%, 1);
-    --color-d-gray-140: hsla(32, 21%, 9%, 1);
+    --color-d-gray-10: hsla(270, 13%, 85%, 1);
+    --color-d-gray-20: hsla(270, 10%, 74%, 1);
+    --color-d-gray-30: hsla(270, 9%, 68%, 1);
+    --color-d-gray-40: hsla(270, 8%, 55%, 1);
+    --color-d-gray-50: hsla(270, 7%, 46%, 1);
+    --color-d-gray-60: hsla(270, 8%, 33%, 1);
+    --color-d-gray-70: hsla(270, 9%, 25%, 1);
+    --color-d-gray-80: hsla(270, 10%, 19%, 1);
+    --color-d-gray-90: hsla(270, 11%, 17%, 1);
+    --color-d-gray-100: hsla(270, 11%, 15%, 1);
+    --color-d-gray-110: hsla(270, 12%, 14%, 1);
+    --color-d-gray-120: hsla(270, 12%, 13%, 1);
+    --color-d-gray-130: hsla(270, 11%, 11%, 1);
+    --color-d-gray-140: hsla(270, 11%, 9%, 1);
 
     --color-d-alpha-gray: hsla(34, 24%, 40%, 0.2);
 
@@ -1730,8 +1730,8 @@ body {
     
     /* Accent Colors */
     // Primary Classic Dark: color-d-gray-70
-    --accent-h: 31;
-    --accent-s: 27%;
+    --accent-h: 270;
+    --accent-s: 9%;
     --accent-l: 24%;
 
     --color-accent-hsl: var(--accent-h),
@@ -1844,7 +1844,7 @@ body {
 
     --text-success: var(--color-d-green-30);
 
-    --text-selection: var(--color-d-alpha-gray);
+    --text-selection: hsla(270, 12%, 25%, 0.4);
     --text-highlight-bg-rgb: var(--color-yellow-rgb);
     --text-highlight-bg: var(--color-d-alpha-yellow);
 
@@ -1852,7 +1852,7 @@ body {
     --text-accent-hover: var(--color-accent-2);
 
     --text-selection-theme-text-color: color-mix(in srgb, currentColor 70%, white);
-    --text-selection-theme-bg: color-mix(in srgb, var(--color-d-gray-50) 30%, transparent);
+    --text-selection-theme-bg: hsla(270, 12%, 22%, 0.5);
 
     /* Icon Colors */
     --icon-color: color-mix(in srgb, var(--color-d-gray-60) 30%, var(--color-d-gray-50));
